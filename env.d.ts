@@ -1,8 +1,8 @@
-declare module NodeJS {
-    interface ProcessEnv  {
-        PG_BD: string,
-        PG_USER: string,
-        PG_PASSWORD: string,
-        PG_PORT: string
-    }
-  }
+declare namespace NodeJS {
+	interface ProcessEnv {
+		PG_DB: string;
+		PG_USER: string;
+		PG_PASSWORD: string;
+		PG_PORT: string;
+	}
+}
