@@ -8,7 +8,13 @@ export const home = async (req: Request, res: Response) => {
 		attributes: { exclude: ["id"] },
 		where: {
 			age: {
-				[Op.or]: ["18", "23"],
+				// [Op.or]: ["18", '23'],
+				// [Op.gt]: 40,  > age | GT = Greather Then
+				// [Op.gte]: 40, >= age | GTE = Equal
+				// [Op.lt]: 40, < age | LT = Lower Than
+				// [Op.lte]: <= 40
+
+				[Op.between]: [30, 70],
 			},
 		},
 	});
