@@ -1,10 +1,25 @@
-Arquivos do módulo inicial de Node + Typescript, da estrutura MVC aplicada.
+# Database Study Repository
 
-### Pré-requisitos globais:
-`npm i -g nodemon typescript ts-node`
+<img src="https://www.jetersonlordano.com.br/cdn/posts/02-05-23-6451013574e15/como-instalar-e-gerenciar-o-banco-de-dados-com-dbeaver.webp" alt="Dbeaver">
 
-### Instalação
-`npm install`
+## 💻 Pré-requisitos
 
-### Para rodar o projeto
-`npm run start-dev`
+- Latest version of `Node`.
+- You have a `<Windows/Linux/Mac>` machine. Indicate which operating system is supported/not supported.
+- Have installed on your machine the `Postgresql` and `Dbeaver`.
+
+```
+npm i -g nodemon typescript ts-node
+```
+
+## 🚀 Instalando o Projeto
+
+```
+npm install
+```
+
+## ☕ Using
+
+```
+npm run start-dev
+```
